@@ -1,0 +1,64 @@
+//
+//  Information retrieval course
+//  First version: Johan Boye 2016
+//
+// In this file you can put your regular expressions
+// for matching non-standard words (like mail addresses).
+//
+// As you have probably already understood, lines beginning
+// with "//" are comments.
+//
+// The regular expression below is an example of a useful
+// pattern. You can keep it, modify it, or remove it, as you
+// wish.
+
+//Compare-Object (Get-Content .\tokenized_result.txt) (Get-Content .\token_test_tokenized_ok.txt)
+
+
+
+
+// ADD YOUR PATTERNS HERE
+// website addresses 
+http[s]?:/\S+
+
+// email addresses 
+[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}
+
+// abbreviate like e.g.
+[a-z]+[.][a-z]+[.]
+
+// file names 
+[A-Za-z0-9_]+\.[A-Za-z]+
+
+// IP 
+(\d+[,.-])+\d+
+
+// like fully-equiped 
+[A-Za-z]+-[A-Za-z]+
+
+// time 
+[0-9]+[:][0-9]+[:][0-9]+
+
+// I'm can't ...
+[A-Za-z]+'[a-z]+
+
+
+ // cash 
+[$][0-9]+
+
+// phone number
+[+][0-9]+
+
+// Twenty-four seven
+ \d+/\d+
+
+//212718-xxxx
+\d+[-][x]+
+
+'em
+
+// The patterns will be tried from top to bottom, so it is a
+// good idea to put more specific patterns above more general
+// patterns.
+
+

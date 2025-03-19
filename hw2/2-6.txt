@@ -1,0 +1,30 @@
+1 Math.f 0
+1 TravisTaylor.f 0
+1 Davis_Graduate.f 0
+1 Grad_Students.f 0
+1 The_Grad.f 0
+1 EfremRensi.f 1
+1 GRE.f 0
+1 JulieB.f 0
+1 EOP.f 0
+1 Mentorships_for_Undergraduate_Research_in_Agriculture%2C_Letters%2C_and_Science.f 0
+
+normalizing with the number of words 
+relevant documents:1
+
+--------------------------------------------------------------------------------
+1 Math.f 0
+1 Davis_Graduate.f 0
+1 The_Grad.f 0
+1 Elaine_Kasimatis.f 2
+1 Grad_Students.f 0
+1 Wilfred.f 0
+1 Evelyn_Silvia.f 3
+1 Society_for_Industrial_and_Applied_Mathematics.f 1
+1 Graduate_Academic_Achievement_and_Advocacy_Program.f  0
+1 JulieB.f 0
+
+normalizing with the Euclidean distance 
+relevant documents:3
+-------------------------------------------------------------------------------
+Normalizing by word count is a simple length adjustment that ignores the distribution and weights (e.g., idf) of terms in the document vector. In contrast, Euclidean normalization produces unit-length vectors that capture term distribution and weighting, leading to improved precision and recall.
