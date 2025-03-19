@@ -1,0 +1,57 @@
+# The document provides detailed information about graduate programs，which focus on biology and engineering integration, with no specific emphasis on mathematics
+1 Biological_Systems_Engineering.f 1
+
+1 Candidate_Statements.f 0
+
+# This document outlines information about the Computer Science department at UC Davis, including undergraduate and graduate programs, courses, and faculty. But it does not directly address graduate programs in mathematics
+1  Computer_Science.f 0
+
+1 document_translated.f 0
+
+# This document contains reviews and descriptions of Electrical and Computer Engineering courses, but no focus on mathematics.
+1 ECE_Course_Reviews.f 1
+
+# This document only briefly mention the importance of mathematics preparation for graduate studies in economics
+1 Economics.f 1
+
+# This document highlights Elaine Kasimatis’s extensive contributions to mathematics education, including her graduate studies in mathematics at UC Davis.
+1 Elaine_Kasimatis.f 2
+
+# The document highlights Evelyn Silvia's contributions to graduate mathematics education, including founding the Master of Arts in Teaching program
+1 Evelyn_Silvia.f 2
+
+# The document provides a link to the Department of Mathematics seminars but does not contain detailed
+1 Events_Calendars.f 0
+
+# This document is a introduction for a bachelor program.
+1 Fiber_and_Polymer_Science.f 0
+
+1 Hydrology.f 0
+
+1 Mathematics.f 3
+
+1 MattHh.f 1
+
+The document lists various private tutors and tutoring services available in Davis, covering subjects including mathematics.
+1 Private_Tutoring.f 0
+
+# it's a minor program offered for students who like math
+1 Quantitative_Biology_and_Bioinformatics.f 1
+
+# This document provides detailed information about the statistics programs at UC Davis, including undergraduate and graduate options.
+1 Statistics.f 2
+
+1 Student_Organizations.f 0
+
+1 UCD_Honors_and_Prizes.f 0
+
+1 University_Departments.f 0
+
+# the document is about a graduate program, but no focus on math.
+1 What_I_Wish_I_Knew...Before_Coming_to_UC_Davis_Entomology.f 0
+
+1 Wildlife%2C_Fish%2C_and_Conservation_Biology.f 0
+
+----------------------------------
+precision = 8/22 = 0.36
+recall = 8/100 = 0.08

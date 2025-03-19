@@ -1,0 +1,68 @@
+query: education Mathematics graduate UC Davis
+1 Candidate_Statements.f  0
+1 Elaine_Kasimatis.f 2
+1 Evelyn_Silvia.f 2
+1 Events_Calendars.f 0
+1 Graduate_Groups.f 1
+1 Linda_Katehi.f 0
+1 Private_Tutoring.f 0 
+1 Student_Organizations.f 0 
+1 The_Mary_Jeanne_Gilhooly_Award.f 0
+1 UCD_Honors_and_Prizes.f 0
+1 University_Departments.f 0
+precision = 3/11 = 0.27
+recall = 3/100 = 0.03
+--------------------------------------------------------
+query: Mathematics graduate program UC Davis
+1 Candidate_Statements.f  0
+1 Computer_Science.f 0
+1 ECE_Course_Reviews.f 1
+1 Economics.f 1
+1 Elaine_Kasimatis.f 2
+1 Evelyn_Silvia.f 2
+1 Events_Calendars.f 0
+1 Hydrology.f 0
+1 Mathematics.f 3
+1 MattHh.f 1
+1 Private_Tutoring.f 0
+1 Statistics.f 2
+1 Student_Organizations.f 0
+1 UCD_Honors_and_Prizes.f 0
+1 UC_Davis_English_Department.f 0
+1 University_Departments.f 0
+1 What_I_Wish_I_Knew...Before_Coming_to_UC_Davis_Entomology.f 0
+1 Wildlife%2C_Fish%2C_and_Conservation_Biology.f 0
+precision = 7/18 = 0.39
+recall = 7/100 = 0.07
+------------------------------------------------------------
+query: Mathematics graduate program UC Davis description
+1 Mathematics.f 3
+1 MattHh.f 1
+1 What_I_Wish_I_Knew...Before_Coming_to_UC_Davis_Entomology.f 0
+precision = 2/3 = 0.66
+recall = 2/100 = 0.02
+---------------------------------------------------------------
+query: Mathematics graduate program UC Davis application
+1 Computer_Science.f 0
+1 ECE_Course_Reviews.f 1
+1 Mathematics.f 3
+1 MattHh.f 1
+1 Statistics.f 2
+1 UCD_Honors_and_Prizes.f 0
+1 What_I_Wish_I_Knew...Before_Coming_to_UC_Davis_Entomology.f 0
+precision = 4/7 = 0.57
+recall = 4/100 = 0.04
+------------------------------------------------------------
+query: Mathematics graduate program UC Davis application degree
+1 Mathematics.f 3
+1 Statistics.f 2
+1 UCD_Honors_and_Prizes.f 0
+1 What_I_Wish_I_Knew...Before_Coming_to_UC_Davis_Entomology.f 0
+precision = 2/4 = 0.5
+recall = 2/100 = 0.02
+------------------------------------------------------
+best query: Mathematics graduate program UC Davis application
+Why can we not simply set the query to be the entire information need description? 
+I think we should find a balance between precision and recall. Using a very complete description may cause us
+to miss many relevant documents, although it can make the precision very high. Being too rough may 
+allow us to retrieve many relevant documents, but the recall rate will be very low.
